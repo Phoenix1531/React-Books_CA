@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Fira+Sans&family=Inria+Sans&family=Italianno&family=Lora&family=Montserrat:wght@500&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Playfair+Display&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Rubik&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
+
+#logo{
+    font-family:  sans-serif;
+    margin-left: 5px;
+    color: white;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    text-align: center;
+}
+#blur-msg{
+  margin: 30px;
+}
+#register{
+    box-shadow: 1px 1px 1px 1px black;
+}
+#books-container{
+  height: 90vh;
+}
+#register:Hover{
+    transform: translate(-4px,-4px);
+}
+#loader{
+  margin: 10vw 38vw;
+  transform: rotate(90deg);
+}
+#submit:Hover{
+  box-shadow: 1px 1px 1px 1px black;
+  transform: translate(-4px,-4px);
+  border: none;
+}
+#result-none{
+  text-align: center;
+  width: 85vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 2rem auto;
+    width: 35vw;
+    background-color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(https://kalvium.community/images/login-bg.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+  }
+  legend{
+    padding: 3px 6px;
+    color: #f7f7f7;
+    background-color: #242424;
+  }
+  form input{
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+  #root{
+    width: 100vw;
+    height: 100vj;
+  }
+  form input[type="submit"]{
+    background-color: #41a345ff;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  form label{
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  .err{
+    color: red;
+    font-size: 0.9rem;
+  }
+  .success{
+    background-color: #469cff;
+    font-weight: 500;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 20px;
+  }
+#card:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    box-shadow: 6px 6px black;
+    transform: translate(-6px,-6px);
+}
+fieldset input{
+    margin: 10px 0 10px 0;
+}
+fieldset input::placeholder{
+    font-size: Larger;
+}
